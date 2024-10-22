@@ -5,7 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "postinstall": "npm rebuild bcrypt"
+  },
+  "engines": {
+  "node": "20.x"
   },
   "keywords": [],
   "author": "",
