@@ -1,7 +1,7 @@
 import User from "../models/user.js"; // Assuming User model
 import nodemailer from 'nodemailer'; // Use 'import' for nodemailer
 import dotenv from 'dotenv';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 
 dotenv.config(); 
 // Generate random reset code (for simplicity, use a number)
